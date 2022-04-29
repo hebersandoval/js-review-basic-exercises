@@ -31,3 +31,5 @@ You can put it at the bottom of your main js file and use the `script` tag's `sr
 ```
 
 This is a hack and is not bullet proof to work. The reason for this hack, is the placement of the `script` tags in the `<head>` of the HMTL, you will have a rendering pause frenzy if you reference alot of scripts here. This will delay the rendering or display of the document and the script may not have access to the HTML in the document to do its job. This can cause more work in the developer to delay the execution of any script that changes the HTML of the document until it has finished loading.
+
+Here is another example of a function call that can override the functionality of anothe script, as all scripts in your page have the same right. Yeap you heard right!
